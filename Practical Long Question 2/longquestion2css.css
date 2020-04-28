@@ -1,0 +1,129 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F5624D;
+	font-family: 'Baloo Bhaina 2', serif;
+}
+
+header > img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.5rem;
+}
+
+.quote {
+	font-size: 4rem;
+	position: relative;
+  	text-align: left;
+  	color: black;
+}
+
+.bottomleft {
+	position: absolute;
+  	bottom: 0.5rem;
+  	left: 2rem;
+}
+
+.container {
+	width: 50%;
+	background-color: #34A65F;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3rem;
+	overflow: hidden;
+	border-radius: 0.5rem;
+}
+
+.formlabel {
+	margin-left: 1.5rem;
+	width: 20rem;
+	float: left;
+	text-align: left;
+	clear: left;
+}
+
+.formfield {
+	float: left;
+	text-align: left;
+}
+
+input, select {
+	width: 20rem;
+	height: 3rem;
+	font-size: 2rem;
+}
+
+textarea {
+	font-size: 2rem;
+}
+
+.submitbutton {
+	margin-left: 20rem;
+}
+
+p {
+	text-align: center;
+	font-size: 5rem;
+}
+
+@media only screen and (max-width:768px) {
+  	body {
+  		max-width: 100%;
+  	}
+
+  	.quote {
+		font-size: 2rem;
+		position: relative;
+  		text-align: left;
+  		color: black;
+	}
+
+	.container {
+		width: 50%;
+		background-color: #34A65F;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.5rem;
+		overflow: hidden;
+		border-radius: 0.5rem;
+	}
+
+	.formlabel {
+		margin-left: 0.75rem;
+		width: 10rem;
+		float: left;
+		text-align: left;
+		clear: left;
+	}
+
+	.formfield {
+		float: left;
+		text-align: left;
+	}
+
+	input, select {
+		width: 10rem;
+		height: 1.5rem;
+		font-size: 1rem;
+	}
+
+	textarea {
+		font-size: 1rem;
+	}
+
+	.submitbutton {
+		margin-left: 10rem;
+	}
+
+	p {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+}
